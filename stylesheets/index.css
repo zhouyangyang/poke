@@ -1,0 +1,62 @@
+body{
+  margin:0;
+    font-family:"Cooper";
+    font-size:12px;
+    background:#0d0804 url("../img/1.jpg");
+    background-size:cover;
+}
+#dakuai{
+	width: 800px;
+	height: 600px;
+
+	margin: 30px auto;
+    position: relative;
+    cursor: pointer;
+}
+.kuai{
+	width: 77px;
+	height: 120px;
+	position: absolute;
+	color: black;
+	background-size: cover;
+    padding: 5px;
+    -webkit-transition:all .9s ease;
+}
+.set{
+	width: 90px;
+	height: 120px;
+	position: absolute;
+	bottom: 0;
+}
+#left-set{
+	left: 120px;
+}
+#right-set{
+	left: 600px;
+}
+.set{
+    width:90px;
+    height:120px;
+    position:absolute;
+    bottom:0;
+}
+#left-set{
+    left:120px;
+}
+#right-set{
+    left:600px;
+}
+.button{
+    position:absolute;
+    left:360px;
+    width:80px;
+    height:20px;
+    border-radius:10px;
+    background:#043258;
+}
+#move-to-right{
+    bottom:80px;
+}
+#move-to-left{
+    bottom:40px;
+}
